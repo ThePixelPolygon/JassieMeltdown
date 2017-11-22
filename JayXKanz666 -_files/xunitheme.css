@@ -1,0 +1,164 @@
+li, a, p, h3, h4, h5, h6, .footer {
+	color:white;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 200;
+}
+
+h1, h2 {
+	color:white;
+	font-family: 'Anonymous Pro', monospace;
+	font-weight: 200;
+}
+
+#msg {
+	top: 225px;
+	left: 675px;
+}
+
+.info {
+	list-style-type: none;
+}
+
+.resize {
+	width: 200px;
+	height : auto;
+}
+
+.resize {
+	width: auto;
+	height : 300px;
+}
+
+.button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.col-md-10, .col-md-2 {
+	position: initial !important;
+	left: 100px;
+}
+
+.col-md-2 {
+	top: 10px;
+}
+
+.col-md-10 {
+	top: 20px;
+}
+
+.row {
+	margin-right: 0px;
+	margin: auto !important;
+}
+
+.designline {
+	-ms-flex-align:center;
+	-webkit-box-align:center;
+	align-items:center;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	width: 400;
+}
+
+.designline:after {
+	-ms-flex:1 1 auto;
+	-webkit-box-flex:1;
+	content:"";
+	flex:1 1 auto;
+	height:1px;
+	margin-left:4px;
+	opacity:.6;
+	color:#848484;
+}
+
+
+.designline:after {
+	background-color:#848484;
+}
+
+#pfp {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #bf6165;
+    opacity: 0.99;
+}
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+body {
+	background-color:#161616;
+	margin: 0px;
+	padding: 0px;
+}
+
+header li {
+	font-size: 11pt;
+	display: inline;
+	margin-top: 12;
+}
+
+a {
+	color: #CCCCCC;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	display: inline;
+}
+
+li a {
+    display: inline;
+    width: 60px;
+}
+
+header {
+	height: 40px;
+	background-color:#0B0B0B;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.8rem;
+  background-color: #1e1d1d;
+  text-align: center;
+}
+
+#slogan {
+	position: center;
+}
+
+#navbar {
+    position: absolute;
+    top: 10px;
+	left: 5px;
+}
+
+#navbar-right {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
