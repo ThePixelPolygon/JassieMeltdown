@@ -2230,7 +2230,7 @@ p.nominalBounds = new cjs.Rectangle(-892.5,-470,722.5,940);
 			tm.gotoAndStop(224);
 		}
 		function pmort(){
-			window.open("https://thepixelpolygon.github.io/JassieMeltdown/bnbpstm", "_blank");
+			window.open("bnbpstm.pdf", "_blank");
 		}
 		function miscjas(){
 			tm.gotoAndStop(236);
@@ -2246,7 +2246,7 @@ p.nominalBounds = new cjs.Rectangle(-892.5,-470,722.5,940);
 		this.vieworiginal.addEventListener("click", fl_ClickToGoToWebPage);
 		
 		function fl_ClickToGoToWebPage() {
-			window.open("https://thepixelpolygon.github.io/JassieMeltdown/secret.html", "_blank");
+			window.open("secret.html", "_blank");
 		}
 	}
 
