@@ -7,7 +7,7 @@ var loadedGoogleCount = 0;
 var gFontsUpdateCacheList = [];
 var tFontsUpdateCacheList = [];
 lib.ssMetadata = [
-		{name:"JassieMeltdown_atlas_", frames: [[2884,1861,1028,526],[3412,5914,492,240],[0,5124,885,377],[2650,5914,760,184],[3658,4429,432,302],[2884,4925,675,514],[1512,5124,585,501],[887,5124,623,503],[2884,3424,875,494],[467,5629,427,502],[0,5503,465,512],[3561,4925,492,532],[2884,2389,846,558],[3914,1851,128,128],[2884,1026,833,833],[2884,0,1024,1024],[3815,5459,246,370],[3719,1779,360,70],[3658,4834,374,66],[1178,5929,288,68],[2680,5271,115,117],[3972,3715,121,124],[3914,1981,128,128],[3146,6100,217,244],[3570,6156,274,63],[1717,6203,295,56],[3658,4733,338,99],[283,6133,522,152],[807,6206,254,58],[2884,2949,930,473],[896,6040,819,164],[3816,2765,266,473],[2644,6100,500,165],[0,0,1440,2560],[1442,0,1440,2560],[896,5929,280,72],[3914,2111,128,128],[3719,1491,326,286],[3910,287,165,133],[2680,5124,195,145],[3910,680,167,123],[3910,422,163,130],[3910,554,167,124],[2884,3920,793,507],[2884,4429,772,494],[3266,5459,547,453],[2680,5441,584,440],[2099,5124,579,463],[2356,6002,286,305],[2099,5589,549,411],[0,6017,281,309],[3732,2389,354,374],[3761,3715,209,178],[3910,805,145,114],[3906,5898,114,112],[3365,6156,203,144],[3910,149,180,136],[3679,4177,342,202],[3815,5831,270,65],[3679,3920,360,255],[896,5629,552,298],[3719,1026,332,463],[3816,3240,266,473],[1717,6040,637,161],[0,2562,1440,2560],[1442,2562,1440,2560],[3914,2241,128,128],[3846,6156,218,55],[467,5503,353,68],[2014,6203,269,58],[3910,0,170,147],[1512,5627,549,411]]}
+		{name:"JassieMeltdown_atlas_", frames: [[2884,1026,1028,526],[551,5815,492,240],[0,5124,885,377],[551,5629,760,184],[3465,5759,432,302],[2884,4711,675,514],[3505,3594,585,501],[887,5124,623,503],[2884,2589,875,494],[3658,4097,427,502],[3228,5245,465,512],[3561,4711,492,532],[2884,3594,619,619],[2884,1554,846,558],[3914,1181,128,128],[2884,0,1024,1024],[0,5916,246,370],[3658,4601,360,70],[2644,5682,374,66],[551,5503,288,68],[3899,5863,115,117],[3899,5737,121,124],[3914,1051,128,128],[1045,6052,217,244],[3429,6063,274,63],[3705,6063,295,56],[3679,3461,338,99],[2046,5979,522,152],[3705,6121,254,58],[2884,2114,930,473],[2644,5759,819,164],[3816,2019,266,473],[2927,5925,500,165],[1442,0,1440,2560],[0,0,1440,2560],[3761,2969,280,72],[3914,921,128,128],[3695,5245,326,286],[3910,287,165,133],[1313,5629,195,145],[3910,680,167,123],[3910,422,163,130],[3910,554,167,124],[2884,3085,793,507],[2884,4215,772,494],[2679,5227,547,453],[2093,5124,584,440],[1512,5124,579,463],[248,5916,286,305],[0,5503,549,411],[2644,5925,281,309],[3679,3085,354,374],[1264,6052,209,178],[3910,805,145,114],[3505,4097,114,112],[1475,6052,203,144],[3910,149,180,136],[3695,5533,342,202],[536,6057,270,65],[1684,5889,360,255],[1512,5589,552,298],[3732,1554,332,463],[3816,2494,266,473],[1045,5889,637,161],[1442,2562,1440,2560],[0,2562,1440,2560],[3914,1311,128,128],[808,6057,218,55],[1045,5815,353,68],[2927,6092,269,58],[3910,0,170,147],[2093,5566,549,411]]}
 ];
 
 
@@ -155,21 +155,21 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 
-(lib._9 = function() {
+(lib._8ec64a84e88d4e2fa37f00b41fb17342 = function() {
 	this.spriteSheet = ss["JassieMeltdown_atlas_"];
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.AstralHecker = function() {
+(lib._9 = function() {
 	this.spriteSheet = ss["JassieMeltdown_atlas_"];
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap1 = function() {
+(lib.AstralHecker = function() {
 	this.spriteSheet = ss["JassieMeltdown_atlas_"];
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
@@ -1586,13 +1586,13 @@ p.nominalBounds = new cjs.Rectangle(-77.1,-27.2,154.2,54.4);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
-	this.instance = new lib.Bitmap1();
+	this.instance = new lib._8ec64a84e88d4e2fa37f00b41fb17342();
 	this.instance.parent = this;
-	this.instance.setTransform(-416.5,-416.5);
+	this.instance.setTransform(-417,-417,1.346,1.346);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
-}).prototype = getMCSymbolPrototype(lib.JassiesCurrentAvatar, new cjs.Rectangle(-416.5,-416.5,833,833), null);
+}).prototype = getMCSymbolPrototype(lib.JassiesCurrentAvatar, new cjs.Rectangle(-417,-417,833,833), null);
 
 
 (lib.Instruction = function(mode,startPosition,loop) {
@@ -2230,7 +2230,7 @@ p.nominalBounds = new cjs.Rectangle(-892.5,-470,722.5,940);
 			tm.gotoAndStop(224);
 		}
 		function pmort(){
-			window.open("https://thepixelpolygon.github.io/JassieMeltdown/bnbpstm.pdf", "_blank");
+			window.open("http://thepixelpolygon.5gbfree.com/bnbpstm.pdf", "_blank");
 		}
 		function miscjas(){
 			tm.gotoAndStop(236);
@@ -2246,7 +2246,7 @@ p.nominalBounds = new cjs.Rectangle(-892.5,-470,722.5,940);
 		this.vieworiginal.addEventListener("click", fl_ClickToGoToWebPage);
 		
 		function fl_ClickToGoToWebPage() {
-			window.open("https://thepixelpolygon.github.io/JassieMeltdown/secret.html", "_blank");
+			window.open("http://thepixelpolygon.5gbfree.com/secret/secret.html", "_blank");
 		}
 	}
 
@@ -3007,7 +3007,7 @@ p.nominalBounds = new cjs.Rectangle(-892.5,-470,722.5,940);
 	this.nxt.setTransform(1122.8,879.8,2.613,2.613,0,0,0,-0.1,-0.1);
 	new cjs.ButtonHelper(this.nxt, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.nxt},{t:this.prev}]},210).wait(72));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.nxt},{t:this.prev}]},210).to({state:[{t:this.prev}]},71).wait(1));
 
 	// Layer 5
 	this.begin_button = new lib.Button();
